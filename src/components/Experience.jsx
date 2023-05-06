@@ -52,7 +52,7 @@ const ExperienceCard = ({ experience }) => {
             {
                 experience.certification.imageLink &&
 
-                <div className="mt-5 bg-tertiary p-5 rounded-2xl w-full">
+                <div className="mt-5 bg-tertiary p-0 sm:p-5 rounded-2xl w-full">
                     <div className='relative w-full h-[230px]'>
                         <img
                             src={experience.certification.imageLink}
