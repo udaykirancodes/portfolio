@@ -5,7 +5,7 @@ function Landing() {
         <div className="max-w-6xl mt-8 mx-auto flex flex-col-reverse sm:grid sm:grid-rows-1 sm:grid-cols-2 h-full">
             <div className="h-auto sm:my-32 flex justify-center flex-col items-start">
                 <h1
-                    className="md:text-7xl text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 font-extrabold text-4xl text-left">
+                    className="md:text-7xl text-transparent font-poppins bg-clip-text bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 font-extrabold text-4xl text-left">
                     Hi, I'am Uday
                 </h1>
                 <h3 className="text-xl sm:text-2xl  text-slate-600 font-sans mt-5">
