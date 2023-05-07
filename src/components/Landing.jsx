@@ -33,7 +33,7 @@ function Landing() {
 
             </div>
             <div className="h-auto pb-10 flex justify-center ml-0 sm:ml-16 items-center">
-                <img src={uday} className="h-72 sm:h-80 rounded-full mt-5 sm:rounded-3xl drop-shadow-[0_0px_35px_rgb(0,0,0,0.5)]" alt="" />
+                <img src={uday} className="h-72 sm:h-80 rounded-full mt-5 sm:rounded-3xl drop-shadow-[0_0px_35px_rgba(142,36,170,1)]" alt="" />
             </div>
         </div>
     )
