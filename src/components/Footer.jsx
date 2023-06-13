@@ -12,8 +12,7 @@ export const Footer = () => {
                         </h1>
                     </div>
                 </div>
-                <div className="flex gap-x-2 mt-4">
-
+                <div className="flex lg:w-full items-center md:justify-start justify-center flex-wrap gap-x-2 mt-4">
                     {/* <!-- Github --> */}
                     <button
                         type="button"
