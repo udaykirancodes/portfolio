@@ -4,7 +4,7 @@ import {
     VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 
-import { github } from "../assets";
+import { github  } from "../assets";
 import { motion } from "framer-motion";
 
 import "react-vertical-timeline-component/style.min.css";
@@ -79,7 +79,7 @@ const ExperienceCard = ({ experience }) => {
 
 const Experience = () => {
     return (
-        <>
+        <div id="experiences">
             <motion.div variants={textVariant()}>
                 <p className={`${styles.sectionSubText} text-center`}>
                     What I have done so far
@@ -99,7 +99,7 @@ const Experience = () => {
                     ))}
                 </VerticalTimeline>
             </div>
-        </>
+        </div>
     );
 };
 

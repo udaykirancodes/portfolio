@@ -1,6 +1,7 @@
 
 import { github, carrent, jobit, tripguide } from "../assets";
 import { nodejs, mongodb, git, figma, docket, threejs, docker, html, css, javascript, typescript, reactjs, redux, tailwind } from '../assets'
+import { candyCrush, codeSaver, maziBai, metalStation } from "../assets";
 export const technologies = [
     {
         name: "HTML 5",
@@ -53,20 +54,22 @@ export const technologies = [
 ];
 export const experiences = [
     {
-        title: "MERN Stack Developer",
-        company_name: "Mazibai.com",
-        icon: "MB",
-        date: "Jan 2022 - April 2022",
+        title: "Nextjs Developer",
+        company_name: "CosEdge",
+        icon: "CE",
+        date: "May 2023 - June 2023",
         points: [
-            "Developing a full stack application.",
-            "Collaborating with team members to build optimized product.",
+            "Developing web applications using React.js & Next.js",
+            "Collaborating with cross-functional teams.",
             "Implementing responsive design.",
+            "Participating in code reviews.",
         ],
         certification: {
-            imageLink: "",
-            link: ""
+            imageLink: "https://s3-ap-south-1.amazonaws.com/internshala-uploads-new/student_certificates/644ffcbc292281682963644.png",
+            link: "https://internshala.com/student/certificate/143850269/obf15u66yy_"
         }
     },
+
     {
         title: "Full Stack Developer",
         company_name: "Bismilla Enterprices",
@@ -83,21 +86,20 @@ export const experiences = [
         }
     },
     {
-        title: "Nextjs Developer",
-        company_name: "CosEdge",
-        icon: "CE",
-        date: "May 2023 - June 2023",
+        title: "MERN Stack Developer",
+        company_name: "Mazibai.com",
+        icon: "MB",
+        date: "Jan 2022 - April 2022",
         points: [
-            "Developing web applications using React.js & Next.js",
-            "Collaborating with cross-functional teams.",
+            "Developing a full stack application.",
+            "Collaborating with team members to build optimized product.",
             "Implementing responsive design.",
-            "Participating in code reviews.",
         ],
         certification: {
-            imageLink: "https://s3-ap-south-1.amazonaws.com/internshala-uploads-new/student_certificates/644ffcbc292281682963644.png",
-            link: "https://internshala.com/student/certificate/143850269/obf15u66yy_"
+            imageLink: "",
+            link: ""
         }
-    }
+    },
 ];
 export const skills = [
     {
@@ -149,9 +151,9 @@ export const skills = [
 
 export const projects = [
     {
-        name: "Car Rent",
+        name: "E-Commerce Platform",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Web-based platform that allows users to buy and sell various products. Users can search, sort and apply filters etc...",
         tags: [
             {
                 name: "react",
@@ -162,17 +164,18 @@ export const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "express",
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: metalStation,
+        live_link: "https://metalstation.vercel.app/",
+        source_code_link: "https://github.com/udaykirancodes/metalstation-nextjs",
     },
     {
-        name: "Job IT",
+        name: "Code Saver",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "A Web Application that is used to save our code snippets. It can help in interview preparation by saving multiple code snippets under single question.",
         tags: [
             {
                 name: "react",
@@ -187,13 +190,14 @@ export const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: codeSaver,
+        live_link: "https://codesaver.onrender.com/",
+        source_code_link: "https://github.com/udaykirancodes/code-saver",
     },
     {
-        name: "Trip Guide",
+        name: "Candy Crush",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "An front-end application designed with CSS, which will allow us to silutate the game Candy-Crush. Match ajacent three candies to gain score.",
         tags: [
             {
                 name: "nextjs",
@@ -208,7 +212,8 @@ export const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: candyCrush,
+        live_link: "https://udaykirancodes.github.io/CandyCrush/",
+        source_code_link: "https://github.com/udaykirancodes/CandyCrush",
     },
 ];

@@ -2,7 +2,7 @@ import React from 'react'
 import { uday } from '../assets'
 function Landing() {
     return (
-        <div className="max-w-6xl mt-8 mx-auto flex flex-col-reverse sm:grid sm:grid-rows-1 sm:grid-cols-2 h-full">
+        <div id='landing' className="max-w-6xl mt-8 mx-auto flex flex-col-reverse sm:grid sm:grid-rows-1 sm:grid-cols-2 h-full">
             <div className="h-auto sm:my-32 flex justify-center flex-col items-start">
                 <h1
                     className="md:text-7xl text-transparent font-poppins bg-clip-text bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 font-extrabold text-4xl text-left">
@@ -28,6 +28,7 @@ function Landing() {
                             stroke-linejoin="round"
                             d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
                     </svg>
+
                     Contact me
                 </button>
 
