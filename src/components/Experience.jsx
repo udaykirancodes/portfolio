@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import {
     VerticalTimeline,
     VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 
-import { github  } from "../assets";
+import { github } from "../assets";
 import { motion } from "framer-motion";
 
 import "react-vertical-timeline-component/style.min.css";
@@ -14,6 +14,8 @@ import { experiences } from "./data";
 import { textVariant } from "./motion";
 
 const ExperienceCard = ({ experience }) => {
+    const [hover, setHover] = useState(false);
+
     return (
         <VerticalTimelineElement
             contentStyle={{
@@ -29,7 +31,7 @@ const ExperienceCard = ({ experience }) => {
                 </div>
             }
         >
-            <div>
+            <div onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
                 <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
                 <p
                     className='text-secondary text-[16px] font-semibold'
@@ -39,7 +41,7 @@ const ExperienceCard = ({ experience }) => {
                 </p>
             </div>
 
-            <ul className='mt-5 list-disc ml-5 space-y-2'>
+            <ul onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)} className='mt-5 list-disc ml-5 space-y-2'>
                 {experience.points.map((point, index) => (
                     <li
                         key={`experience-point-${index}`}
@@ -50,8 +52,7 @@ const ExperienceCard = ({ experience }) => {
                 ))}
             </ul>
             {
-                experience.certification.imageLink &&
-
+                experience.certification.imageLink && hover &&
                 <div className="mt-5 bg-tertiary p-0 sm:p-5 rounded-2xl w-full">
                     <div className='relative w-full h-[230px]'>
                         <img
