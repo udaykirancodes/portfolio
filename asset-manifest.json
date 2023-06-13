@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d4fce138.css",
-    "main.js": "/portfolio/static/js/main.b42d60fb.js",
+    "main.css": "/portfolio/static/css/main.885ffdf7.css",
+    "main.js": "/portfolio/static/js/main.680c3fa5.js",
+    "static/media/metalstation.png": "/portfolio/static/media/metalstation.aed3691e36ea4dd7c0c3.png",
+    "static/media/mazibai.png": "/portfolio/static/media/mazibai.6daf1123675fddab3de9.png",
     "static/media/tripguide.png": "/portfolio/static/media/tripguide.991986c795ea140ba063.png",
+    "static/media/candycrush.png": "/portfolio/static/media/candycrush.563985fce9018173a06f.png",
     "static/media/carrent.png": "/portfolio/static/media/carrent.6b1e855ede285c40b77f.png",
     "static/media/jobit.png": "/portfolio/static/media/jobit.755da7149642fd049273.png",
     "static/media/uday.jpg": "/portfolio/static/media/uday.2b862108fefb584257c1.jpg",
+    "static/media/codesaver.png": "/portfolio/static/media/codesaver.4af85b5096b082e68154.png",
+    "static/media/link.png": "/portfolio/static/media/link.0e9e50363151d9ea95a6.png",
     "static/media/github.png": "/portfolio/static/media/github.ed1c06d925fff0b57e32.png",
     "index.html": "/portfolio/index.html",
     "static/media/threejs.svg": "/portfolio/static/media/threejs.a02bc572667de670fbfb2173c0331d05.svg",
-    "main.d4fce138.css.map": "/portfolio/static/css/main.d4fce138.css.map",
-    "main.b42d60fb.js.map": "/portfolio/static/js/main.b42d60fb.js.map"
+    "main.885ffdf7.css.map": "/portfolio/static/css/main.885ffdf7.css.map",
+    "main.680c3fa5.js.map": "/portfolio/static/js/main.680c3fa5.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4fce138.css",
-    "static/js/main.b42d60fb.js"
+    "static/css/main.885ffdf7.css",
+    "static/js/main.680c3fa5.js"
   ]
 }
