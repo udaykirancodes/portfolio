@@ -123,7 +123,7 @@ function SocialIcons({ all }) {
         )
     }
     return (
-        <div className="flex lg:w-full items-center md:justify-start justify-center flex-wrap gap-x-2 mt-4">
+        <div className="w-full flex lg:w-full justify-center md:justify-start flex-wrap gap-x-2 mt-4">
             {/* Leetcode */}
             <button
                 type="button"

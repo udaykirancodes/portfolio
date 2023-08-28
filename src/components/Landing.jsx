@@ -13,13 +13,12 @@ function Landing() {
                     MERN Stack | NextJS | React Native
                 </h3>
                 <h3 className="text-xl sm:text-2xl text-slate-500 mt-5">
-                    passionated about coding and making real world projects.
+                    I am enthusiastic about coding and developing real-world applications.
                 </h3>
                 <div
                     class="bottom-auto left-auto right-0 top-0 z-10 inline-block -translate-y-1/2 translate-x-2/4 rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 rounded-full bg-danger p-2 text-xs"></div>
                 <div className='w-full flex items-start justify-center gap-x-2 flex-wrap md:justify-start'>
                     <a href="tel:9381400582">
-
                         <button
                             type="button"
                             data-te-ripple-init
@@ -54,14 +53,17 @@ function Landing() {
 
                 </div>
                 <SocialIcons all={false} />
-                <a
-                    href="https://docs.google.com/document/d/1goZkkmxtaf2TR2PLJbAxhGQMDh2F1-jzHTvRLmoJ7js/edit?usp=sharing"
-                    class="mt-3 p-0.5 rounded bg-gradient-to-r items-center gap-x-1 from-indigo-500 via-purple-500 to-pink-500 flex text-xs font-medium leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
-                    <div className='bg-none flex flex-row justify-between px-3 py-2 bg-gray-900'>
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-2" viewBox="0 0 24 24" id="download" fill='#fff'><path d="M21,14a1,1,0,0,0-1,1v4a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V15a1,1,0,0,0-2,0v4a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V15A1,1,0,0,0,21,14Zm-9.71,1.71a1,1,0,0,0,.33.21.94.94,0,0,0,.76,0,1,1,0,0,0,.33-.21l4-4a1,1,0,0,0-1.42-1.42L13,12.59V3a1,1,0,0,0-2,0v9.59l-2.29-2.3a1,1,0,1,0-1.42,1.42Z"></path></svg>
-                        <button class="text-white bg-gray-900">View Resume</button>
-                    </div>
-                </a>
+                <div className='w-full flex justify-center md:justify-start'>
+
+                    <button
+                        onClick={() => window.open("https://docs.google.com/document/d/1goZkkmxtaf2TR2PLJbAxhGQMDh2F1-jzHTvRLmoJ7js/edit?usp=sharing", "_blank")}
+                        class="mt-3 p-0.5 rounded bg-gradient-to-r items-center gap-x-1 from-indigo-500 via-purple-500 to-pink-500 flex text-xs font-medium leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+                        <div className='bg-none flex flex-row justify-between px-3 py-2 bg-gray-900'>
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-2" viewBox="0 0 24 24" id="download" fill='#fff'><path d="M21,14a1,1,0,0,0-1,1v4a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V15a1,1,0,0,0-2,0v4a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V15A1,1,0,0,0,21,14Zm-9.71,1.71a1,1,0,0,0,.33.21.94.94,0,0,0,.76,0,1,1,0,0,0,.33-.21l4-4a1,1,0,0,0-1.42-1.42L13,12.59V3a1,1,0,0,0-2,0v9.59l-2.29-2.3a1,1,0,1,0-1.42,1.42Z"></path></svg>
+                            <button class="text-white bg-gray-900">View Resume</button>
+                        </div>
+                    </button>
+                </div>
             </div >
             <div className="h-auto pb-10 flex justify-center ml-0 sm:ml-16 items-center">
                 <img src={uday} className="h-72 sm:h-80 rounded-full mt-5 sm:rounded-3xl drop-shadow-[0_0px_35px_rgba(142,36,170,1)]" alt="" />
