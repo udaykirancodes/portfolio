@@ -1,7 +1,6 @@
 import React from 'react'
 
 function Model() {
-    return <></>
     return (
         <>
             <div class="fixed top-80 left-[500px] right-0 z-50 p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-[calc(100%-1rem)] max-h-full">
