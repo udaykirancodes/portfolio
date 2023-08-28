@@ -1,5 +1,5 @@
 
-import { github, carrent, jobit, tripguide } from "../assets";
+import { github, carrent, jobit, tripguide, chatApp, whatsApp } from "../assets";
 import { nodejs, mongodb, git, figma, docket, threejs, docker, html, css, javascript, typescript, reactjs, redux, tailwind } from '../assets'
 import { candyCrush, codeSaver, maziBai, metalStation } from "../assets";
 export const technologies = [
@@ -151,9 +151,53 @@ export const skills = [
 
 export const projects = [
     {
+        name: "Authentication System",
+        description:
+            "The project can be used to authenticate user accounts for various applications and services, providing a secure and convenient login experience through WhatsApp.",
+        tags: [
+            {
+                name: "react-native",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "react",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "tailwindcss",
+                color: "green-text-gradient",
+            },
+        ],
+        image: whatsApp,
+        live_link: "https://github.com/udaykirancodes/whatsapp-based-authentication",
+        source_code_link: "https://github.com/udaykirancodes/whatsapp-based-authentication",
+    },
+    {
+        name: "Real Time Chatting App",
+        description:
+            "Real-time chat app built with React Native Expo. Allows users to connect with each other and chat in real time. Features include user authentication, personal chats.",
+        tags: [
+            {
+                name: "react-native",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "react",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "tailwindcss",
+                color: "green-text-gradient",
+            },
+        ],
+        image: chatApp,
+        live_link: "https://github.com/udaykirancodes/react-native-expo-chat-app",
+        source_code_link: "https://github.com/udaykirancodes/react-native-expo-chat-app",
+    },
+    {
         name: "E-Commerce Platform",
         description:
-            "Web-based platform that allows users to buy and sell various products. Users can search, sort and apply filters etc...",
+            "A website where users can buy and sell products. The marketplace provides search, sort, and filter features to help users find the products they are looking for.",
         tags: [
             {
                 name: "react",
@@ -175,7 +219,7 @@ export const projects = [
     {
         name: "Code Saver",
         description:
-            "A Web Application that is used to save our code snippets. It can help in interview preparation by saving multiple code snippets under single question.",
+            "A Web Application to save our code snippets. You can save multiple code snippets under single question.",
         tags: [
             {
                 name: "react",
@@ -186,7 +230,7 @@ export const projects = [
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "css",
                 color: "pink-text-gradient",
             },
         ],
@@ -200,11 +244,11 @@ export const projects = [
             "An front-end application designed with CSS, which will allow us to silutate the game Candy-Crush. Match ajacent three candies to gain score.",
         tags: [
             {
-                name: "nextjs",
+                name: "reactjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "javascript",
                 color: "green-text-gradient",
             },
             {
@@ -216,4 +260,5 @@ export const projects = [
         live_link: "https://udaykirancodes.github.io/CandyCrush/",
         source_code_link: "https://github.com/udaykirancodes/CandyCrush",
     },
+
 ];

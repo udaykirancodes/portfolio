@@ -24,10 +24,10 @@ import candyCrush from "../assets/projects/candycrush.png"
 import codeSaver from "../assets/projects/codesaver.png"
 import maziBai from "../assets/projects/mazibai.png"
 import metalStation from "../assets/projects/metalstation.png";
-
-
+import chatApp from "../assets/projects/chat-app.png";
+import whatsApp from "../assets/projects/whatsapp.png";
 export {
-  candyCrush, codeSaver, maziBai, metalStation,
+  candyCrush, codeSaver, maziBai, metalStation, chatApp, whatsApp,
   github,
   uday,
   css,
