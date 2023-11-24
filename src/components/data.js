@@ -156,15 +156,15 @@ export const projects = [
             "The project can be used to authenticate user accounts for various applications and services, providing a secure and convenient login experience through WhatsApp.",
         tags: [
             {
-                name: "react-native",
+                name: "nodejs",
                 color: "blue-text-gradient",
             },
             {
-                name: "react",
+                name: "expressjs",
                 color: "pink-text-gradient",
             },
             {
-                name: "tailwindcss",
+                name: "whatsapp",
                 color: "green-text-gradient",
             },
         ],
