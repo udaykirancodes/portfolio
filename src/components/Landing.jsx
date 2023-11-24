@@ -56,7 +56,7 @@ function Landing() {
                 <div className='w-full flex justify-center md:justify-start'>
 
                     <button
-                        onClick={() => window.open("https://drive.google.com/file/d/1HxPf-fm-Xrxez7XsolbOjA-dGk7yh_36/view?usp=sharing", "_blank")}
+                        onClick={() => window.open("https://drive.google.com/file/d/1vnJB7S_Y9qkr6HAWY2OblxnGVcyT8WFH/view?usp=sharing", "_blank")}
                         class="mt-3 p-0.5 rounded bg-gradient-to-r items-center gap-x-1 from-indigo-500 via-purple-500 to-pink-500 flex text-xs font-medium leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
                         <div className='bg-none flex flex-row justify-between px-3 py-2 bg-gray-900'>
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-2" viewBox="0 0 24 24" id="download" fill='#fff'><path d="M21,14a1,1,0,0,0-1,1v4a1,1,0,0,1-1,1H5a1,1,0,0,1-1-1V15a1,1,0,0,0-2,0v4a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V15A1,1,0,0,0,21,14Zm-9.71,1.71a1,1,0,0,0,.33.21.94.94,0,0,0,.76,0,1,1,0,0,0,.33-.21l4-4a1,1,0,0,0-1.42-1.42L13,12.59V3a1,1,0,0,0-2,0v9.59l-2.29-2.3a1,1,0,1,0-1.42,1.42Z"></path></svg>
